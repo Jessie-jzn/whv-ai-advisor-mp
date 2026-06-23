@@ -1,0 +1,171 @@
+.mat-progress-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12rpx;
+}
+
+.mat-progress-num {
+  font-size: 28rpx;
+  font-weight: 700;
+  color: #2c5f2e;
+}
+
+.pill-tabs-scroll {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100%;
+  white-space: nowrap;
+  margin: 8rpx 0 28rpx;
+  height: 80rpx;
+}
+
+.pill-tabs-scroll .mat-tab {
+  display: inline-block;
+  width: auto;
+  line-height: 80rpx;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0rpx 28rpx;
+  margin-right: 14rpx;
+  border-radius: 20rpx;
+  font-size: 26rpx;
+  font-weight: 700;
+  color: #1b2f1c;
+  background: #fffdf8;
+  border: 2rpx solid #e1dccd;
+}
+
+.pill-tabs-scroll .mat-tab-active {
+  background: #2c5f2e;
+  color: #fff;
+  border-color: #2c5f2e;
+  box-shadow: 0 6rpx 16rpx rgba(44, 95, 46, 0.18);
+}
+
+.upload-zone {
+  box-sizing: border-box;
+  min-height: 360rpx;
+  padding: 48rpx 32rpx;
+  margin-bottom: 30rpx;
+  border: 3rpx dashed #d8d3c4;
+  border-radius: 28rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 253, 248, 0.45);
+}
+
+.upload-icon {
+  font-size: 72rpx;
+  line-height: 1;
+  color: #7a7165;
+  margin-bottom: 22rpx;
+}
+
+.upload-title {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #1b2f1c;
+}
+
+.upload-desc {
+  font-size: 24rpx;
+  color: #7a7165;
+  margin-top: 10rpx;
+}
+
+.choose-file-btn {
+  height: 64rpx !important;
+  line-height: 64rpx !important;
+  margin: 28rpx 0 0 !important;
+  padding: 0 34rpx !important;
+  border-radius: 999rpx !important;
+  background: #2c5f2e !important;
+  color: #fff !important;
+  font-size: 26rpx !important;
+  font-weight: 700 !important;
+}
+
+.uploaded-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12rpx;
+  margin-bottom: 18rpx;
+}
+
+.uploaded-title {
+  font-size: 26rpx;
+  font-weight: 700;
+  color: #7a7165;
+}
+
+.uploaded-type {
+  font-size: 24rpx;
+  font-weight: 700;
+  color: #7a7165;
+  text-transform: uppercase;
+}
+
+.file-card {
+  display: flex;
+  align-items: center;
+  gap: 22rpx;
+  padding: 24rpx 28rpx;
+  margin-bottom: 18rpx;
+  background: #fffdf8;
+  border: 2rpx solid #e1dccd;
+  border-radius: 28rpx;
+}
+
+.file-icon {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  background: #edf0e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2c5f2e;
+  font-size: 32rpx;
+  flex-shrink: 0;
+}
+
+.file-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.file-name {
+  display: block;
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #1b2f1c;
+}
+
+.file-meta {
+  display: block;
+  font-size: 24rpx;
+  color: #7a7165;
+  margin-top: 4rpx;
+}
+
+.file-delete {
+  flex-shrink: 0;
+  padding: 8rpx 18rpx;
+  border-radius: 999rpx;
+  background: #f2ead9;
+  color: #8a6d3b;
+  font-size: 22rpx;
+  font-weight: 700;
+}
+
+.file-done {
+  flex-shrink: 0;
+}
+
+.export-btn {
+  margin-top: 8rpx;
+}

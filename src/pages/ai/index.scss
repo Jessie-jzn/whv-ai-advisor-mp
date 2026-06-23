@@ -1,0 +1,117 @@
+.intro-card {
+  display: flex;
+  align-items: center;
+  gap: 20rpx;
+}
+
+.intro-icon {
+  width: 72rpx;
+  height: 72rpx;
+  background: #fdf3e7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36rpx;
+  flex-shrink: 0;
+  line-height: 72rpx;
+  text-align: center;
+}
+
+.intro-title {
+  display: block;
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.intro-desc {
+  display: block;
+  font-size: 24rpx;
+  color: #6b6b6b;
+  margin-top: 4rpx;
+}
+
+.chip-group {
+  margin-bottom: 28rpx;
+}
+
+.chip-group:last-child {
+  margin-bottom: 0;
+}
+
+.gen-btn {
+  width: 100%;
+}
+
+.ai-done-banner {
+  display: flex;
+  gap: 20rpx;
+  align-items: flex-start;
+}
+
+.ai-done-icon {
+  font-size: 40rpx;
+}
+
+.ai-done-title {
+  display: block;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+
+.ai-done-desc {
+  display: block;
+  font-size: 24rpx;
+  opacity: 0.9;
+  margin-top: 8rpx;
+  line-height: 1.45;
+}
+
+.match-row {
+  display: flex;
+  gap: 20rpx;
+  padding: 24rpx 0;
+  border-bottom: 1rpx solid #f0e9dc;
+}
+
+.match-row:last-child {
+  border-bottom: none;
+}
+
+.match-pct {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #d4831a;
+  font-family: "DM Serif Display", Georgia, serif;
+  min-width: 100rpx;
+}
+
+.match-name {
+  display: block;
+  font-size: 30rpx;
+  color: #1a1a1a;
+  margin-bottom: 8rpx;
+}
+
+.match-reason {
+  display: block;
+  font-size: 24rpx;
+  color: #6b6b6b;
+  line-height: 1.45;
+  margin-top: 4rpx;
+}
+
+.hint {
+  display: block;
+  font-size: 22rpx;
+  color: #9a9a9a;
+  margin-top: 16rpx;
+}
+
+.risk-text {
+  flex: 1;
+  font-size: 26rpx;
+  color: #1a1a1a;
+  line-height: 1.45;
+}

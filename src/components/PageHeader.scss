@@ -1,0 +1,48 @@
+.page-header {
+  background: #2c5f2e;
+  padding: 0 32rpx 36rpx;
+  color: #fff;
+}
+
+.page-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16rpx;
+  margin-bottom: 20rpx;
+}
+
+.page-header-brand {
+  font-size: 22rpx;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: "Nunito", sans-serif;
+}
+
+.page-header-bell {
+  position: relative;
+  font-size: 36rpx;
+  opacity: 0.9;
+}
+
+.page-header-bell-dot {
+  position: absolute;
+  top: 0;
+  right: -4rpx;
+  width: 14rpx;
+  height: 14rpx;
+  background: #d4831a;
+  border-radius: 50%;
+  border: 2rpx solid #2c5f2e;
+}
+
+.page-header-title {
+  display: block;
+  font-size: 52rpx;
+  font-weight: 400;
+  font-family: "DM Serif Display", Georgia, serif;
+  color: #fff;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}

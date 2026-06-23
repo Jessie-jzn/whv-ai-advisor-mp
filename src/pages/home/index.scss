@@ -1,0 +1,163 @@
+.ph {
+  color: #9a9a9a;
+}
+
+.feature-grid {
+  display: flex;
+  gap: 16rpx;
+  margin-bottom: 28rpx;
+}
+
+.feature-tile {
+  flex: 1;
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 28rpx 16rpx;
+  text-align: center;
+  border: 1rpx solid #f0e9dc;
+  box-shadow: 0 4rpx 16rpx rgba(44, 95, 46, 0.06);
+}
+
+.feature-icon {
+  display: block;
+  font-size: 44rpx;
+  margin-bottom: 12rpx;
+}
+
+.feature-title {
+  display: block;
+  font-size: 24rpx;
+  font-weight: 700;
+  color: #1a1a1a;
+  white-space: pre-line;
+  line-height: 1.35;
+}
+
+.progress-banner {
+  padding: 28rpx !important;
+}
+
+.progress-banner-row {
+  display: flex;
+  align-items: center;
+  gap: 20rpx;
+}
+
+.progress-banner-icon {
+  font-size: 48rpx;
+}
+
+.progress-banner-main {
+  flex: 1;
+}
+
+.progress-banner-label {
+  display: block;
+  font-size: 26rpx;
+  font-weight: 700;
+  margin-bottom: 8rpx;
+}
+
+.progress-banner-stat {
+  display: block;
+  font-size: 24rpx;
+  opacity: 0.9;
+  margin-top: 8rpx;
+}
+
+.arrow-light {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.section-meta {
+  font-size: 22rpx;
+  color: #9a9a9a;
+}
+
+.town-scroll {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  margin-bottom: 32rpx;
+  width: 100%;
+}
+
+.town-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 28rpx 20rpx;
+  margin-right: 16rpx;
+  border: 1rpx solid #f0e9dc;
+  flex-shrink: 0;
+}
+
+.town-emoji {
+  font-size: 56rpx;
+  margin-bottom: 12rpx;
+}
+
+.town-name {
+  font-size: 28rpx;
+  color: #1a1a1a;
+  font-weight: 400;
+}
+
+.town-state {
+  font-size: 22rpx;
+  color: #9a9a9a;
+  margin-top: 4rpx;
+}
+
+.town-badges {
+  display: flex;
+  gap: 8rpx;
+  margin-top: 16rpx;
+}
+
+.feed-card {
+  padding: 28rpx !important;
+}
+
+.feed-head {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  margin-bottom: 16rpx;
+}
+
+.feed-avatar {
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 50%;
+  background: #e8f0e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  font-weight: 700;
+  color: #2c5f2e;
+}
+
+.feed-user {
+  display: block;
+  font-size: 26rpx;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.feed-time {
+  display: block;
+  font-size: 22rpx;
+  color: #9a9a9a;
+  margin-top: 2rpx;
+}
+
+.feed-body {
+  font-size: 28rpx;
+  color: #1a1a1a;
+  line-height: 1.55;
+}
