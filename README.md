@@ -48,7 +48,7 @@ npm run dev:h5      # 浏览器预览
 
 ## 配置
 
-- `project.config.json` — 填写小程序 AppID
+- `project.private.config.json` — 本地填写小程序 AppID（已 gitignore，不会提交）
 - `src/utils/config.js` — Cloudflare Worker URL
 - 微信公众平台配置 request 合法域名
 
